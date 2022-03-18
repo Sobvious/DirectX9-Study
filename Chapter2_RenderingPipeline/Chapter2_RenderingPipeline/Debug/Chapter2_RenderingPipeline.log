@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter2_RenderingPipeline\Chapter2_RenderingPipeline\Source.cpp(109,93): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+  Chapter2_RenderingPipeline.vcxproj -> D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter2_RenderingPipeline\Debug\Chapter2_RenderingPipeline.exe
