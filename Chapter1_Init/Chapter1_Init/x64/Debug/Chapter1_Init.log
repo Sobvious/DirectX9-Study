@@ -1,0 +1,9 @@
+﻿  Source.cpp
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter1_Init\Chapter1_Init\Source.cpp(18,43): error C2440: '=': cannot convert from 'LPSTR' to 'LPCWSTR'
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter1_Init\Chapter1_Init\Source.cpp(18,34): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter1_Init\Chapter1_Init\Source.cpp(25,14): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const char *' to 'LPCWSTR'
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter1_Init\Chapter1_Init\Source.cpp(25,14): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : see declaration of 'CreateWindowExW'
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter1_Init\Chapter1_Init\Source.cpp(43,54): error C2664: 'BOOL UnregisterClassW(LPCWSTR,HINSTANCE)': cannot convert argument 1 from 'LPSTR' to 'LPCWSTR'
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter1_Init\Chapter1_Init\Source.cpp(43,25): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4306,1): message : see declaration of 'UnregisterClassW'
