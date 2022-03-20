@@ -178,9 +178,11 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 
 	}
 
-	// Release
+	// *Release
 	UnregisterClass((LPSTR)className, wndClass.hInstance);
 	device->Release();
+	vb->Release();
+	ib->Release();
 
 	return 0;
 }
