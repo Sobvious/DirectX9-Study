@@ -1,4 +1,0 @@
-﻿  Source.cpp
-D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter5_Light_Directional\Chapter5_Light_Directional\Source.cpp(204,30): warning C4244: '=': conversion from 'DWORD' to 'float', possible loss of data
-D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter5_Light_Directional\Chapter5_Light_Directional\Source.cpp(207,99): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
-  Chapter5_Light_Directional.vcxproj -> D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter5_Light_Directional\Debug\Chapter5_Light_Directional.exe
