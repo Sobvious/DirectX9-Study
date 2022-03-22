@@ -289,7 +289,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 			timePrevious = timeGetTime();
 
 			// Begin
-			device->Clear(0, NULL, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, D3DCOLOR_XRGB(255, 255, 255), 1.0f, 0.0f);
+			device->Clear(0, NULL, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER | D3DCLEAR_STENCIL, D3DCOLOR_XRGB(255, 255, 255), 1.0f, 0.0f);
 			device->BeginScene();
 
 			// *Draw Walls
@@ -316,15 +316,11 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 
 			// *Draw Ice to stencil buffer
 			device->SetRenderState(D3DRS_STENCILENABLE, true);
-			device->SetRenderState(D3DRS_STENCILFUNC, D3DCMP_ALWAYS);
 			device->SetRenderState(D3DRS_STENCILREF, 0x1);
-			device->SetRenderState(D3DRS_STENCILMASK, 0xffffffff);
-			device->SetRenderState(D3DRS_STENCILWRITEMASK, 0xffffffff);
-			device->SetRenderState(D3DRS_STENCILZFAIL, D3DSTENCILOP_KEEP);
-			device->SetRenderState(D3DRS_STENCILFAIL, D3DSTENCILOP_KEEP);
-			device->SetRenderState(D3DRS_STENCILPASS, D3DSTENCILOP_REPLACE);
 			device->SetRenderState(D3DRS_ZWRITEENABLE, false);
-			device->SetRenderState(D3DRS_ALPHABLENDENABLE, true);
+			device->SetRenderState(D3DRS_STENCILFUNC, D3DCMP_ALWAYS);
+			device->SetRenderState(D3DRS_STENCILPASS, D3DSTENCILOP_REPLACE);
+			
 			device->SetRenderState(D3DRS_SRCBLEND, D3DBLEND_ZERO);
 			device->SetRenderState(D3DRS_DESTBLEND, D3DBLEND_ONE);
 
@@ -350,7 +346,6 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 			teapot->DrawSubset(0);
 
 			// *End State
-			device->SetRenderState(D3DRS_ALPHABLENDENABLE, false);
 			device->SetRenderState(D3DRS_STENCILENABLE, false);
 			device->SetRenderState(D3DRS_CULLMODE, D3DCULL_CCW);
 		
