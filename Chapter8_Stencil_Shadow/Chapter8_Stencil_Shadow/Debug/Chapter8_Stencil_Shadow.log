@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter8_Stencil_Shadow\Chapter8_Stencil_Shadow\Source.cpp(304,30): warning C4244: '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter8_Stencil_Shadow\Chapter8_Stencil_Shadow\Source.cpp(307,118): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter8_Stencil_Shadow\Chapter8_Stencil_Shadow\Source.cpp(439,20): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter8_Stencil_Shadow\Chapter8_Stencil_Shadow\Source.cpp(442,20): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Chapter8_Stencil_Shadow.vcxproj -> D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter8_Stencil_Shadow\Debug\Chapter8_Stencil_Shadow.exe
