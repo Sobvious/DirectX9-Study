@@ -7,4 +7,5 @@ Properties > Configuration Properties > VC++ Directories > Library Directories >
 Properties > Configuration Properties > Linker > Input > d3d9.lib;d3dx9.lib;winmm.lib;
 Properties > Configuration Properties > Advanced > Character Set > Not Set
 Properties > Configuration Properties > Linker > System > Subsystem > Not Set
+Properties > Configuration Properties > C/C++ > General > SDL checks > No(/sdl-)
 

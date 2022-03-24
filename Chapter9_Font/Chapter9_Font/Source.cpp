@@ -101,9 +101,9 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 
 	D3DXFONT_DESCA lf;  
 	::ZeroMemory(&lf, sizeof(lf));
-	lf.Height = 25;
-	lf.Width = 12;
-	lf.Weight = 500;
+	lf.Height = 24;
+	lf.Width = 0;
+	lf.Weight = 0;
 	lf.CharSet = DEFAULT_CHARSET;
 	strcpy(lf.FaceName, "Time new Roman");
 
