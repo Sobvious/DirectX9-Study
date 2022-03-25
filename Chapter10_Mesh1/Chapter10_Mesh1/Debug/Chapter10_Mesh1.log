@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter10_Mesh1\Chapter10_Mesh1\Source.cpp(272,30): warning C4244: '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter10_Mesh1\Chapter10_Mesh1\Source.cpp(275,99): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+  Chapter10_Mesh1.vcxproj -> D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter10_Mesh1\Debug\Chapter10_Mesh1.exe
