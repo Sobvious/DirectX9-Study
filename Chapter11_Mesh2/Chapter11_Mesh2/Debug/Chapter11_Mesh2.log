@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter11_Mesh2\Chapter11_Mesh2\Source.cpp(138,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter11_Mesh2\Chapter11_Mesh2\Source.cpp(195,30): warning C4244: '=': conversion from 'DWORD' to 'float', possible loss of data
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter11_Mesh2\Chapter11_Mesh2\Source.cpp(198,99): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter11_Mesh2\Chapter11_Mesh2\Source.cpp(209,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter11_Mesh2\Chapter11_Mesh2\Source.cpp(226,20): warning C4018: '<': signed/unsigned mismatch
+  Chapter11_Mesh2.vcxproj -> D:\MyActivity\_1CPP\DirectX9\Introduction to 3D Game programming with DirectX9\Chapter11_Mesh2\Debug\Chapter11_Mesh2.exe
