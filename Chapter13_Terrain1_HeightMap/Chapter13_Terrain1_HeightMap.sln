@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter13_Terrain1_HeightMap", "Chapter13_Terrain1_HeightMap\Chapter13_Terrain1_HeightMap.vcxproj", "{AA005B9B-88FD-47B7-85C9-C2810918D386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Debug|x64.ActiveCfg = Debug|x64
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Debug|x64.Build.0 = Debug|x64
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Debug|x86.Build.0 = Debug|Win32
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Release|x64.ActiveCfg = Release|x64
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Release|x64.Build.0 = Release|x64
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Release|x86.ActiveCfg = Release|Win32
+		{AA005B9B-88FD-47B7-85C9-C2810918D386}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EF2191B-4690-4ABD-B158-197579502169}
+	EndGlobalSection
+EndGlobal

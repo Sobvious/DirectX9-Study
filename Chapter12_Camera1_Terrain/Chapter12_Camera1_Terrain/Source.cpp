@@ -186,7 +186,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 			device->Clear(0, NULL, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, D3DCOLOR_XRGB(255, 255, 255), 1.0f, 0.0f);
 			device->BeginScene();
 
-			// *Draw Cube
+			// *Draw Terrain
 			device->SetTexture(0, tex);
 			terrain->DrawSubset(0);
 
