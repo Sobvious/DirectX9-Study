@@ -190,16 +190,26 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 			if (GetAsyncKeyState('W') & 0x8000) {
 				float units = 4.0f;
 				// *Walk
-				D3DXVECTOR3 vecFront = D3DXVECTOR3(vecForward.x, vecForward.y, 0.0f);
-				D3DXVec3Normalize(&vecFront, &vecFront);
-				vecEye += vecFront * units * deltaTime; 
+				if (cameraType == LANDOBJECT) {
+					D3DXVECTOR3 vecFront = D3DXVECTOR3(vecForward.x, vecForward.y, 0.0f);
+					D3DXVec3Normalize(&vecFront, &vecFront);
+					vecEye += vecFront * units * deltaTime;
+				}
+				if (cameraType == AIRCRAFT) {
+					vecEye += vecForward * units * deltaTime;
+				}
 			}
 			if (GetAsyncKeyState('S') & 0x8000) {
 				float units = -4.0f;
 				// *Walk
-				D3DXVECTOR3 vecFront = D3DXVECTOR3(vecForward.x, vecForward.y, 0.0f);
-				D3DXVec3Normalize(&vecFront, &vecFront);
-				vecEye += vecFront * units * deltaTime;
+				if (cameraType == LANDOBJECT) {
+					D3DXVECTOR3 vecFront = D3DXVECTOR3(vecForward.x, vecForward.y, 0.0f);
+					D3DXVec3Normalize(&vecFront, &vecFront);
+					vecEye += vecFront * units * deltaTime;
+				}
+				if (cameraType == AIRCRAFT) {
+					vecEye += vecForward * units * deltaTime;
+				}
 			}
 			if (GetAsyncKeyState('D') & 0x8000) {
 				float units = 4.0f;
@@ -232,7 +242,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 					vecEye.z += units * deltaTime;
 				}
 				if (cameraType == AIRCRAFT) {
-					vecEye += vecRight * units * deltaTime;
+					vecEye += vecUp * units * deltaTime;
 				}
 			}
 			if (GetAsyncKeyState('R') & 0x8000) {
@@ -242,7 +252,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, INT nCmdShow) {
 					vecEye.z += units * deltaTime;
 				}
 				if (cameraType == AIRCRAFT) {
-					vecEye += vecRight * units * deltaTime;
+					vecEye += vecUp * units * deltaTime;
 				}
 			}
 			if (GetAsyncKeyState(VK_UP)) {
