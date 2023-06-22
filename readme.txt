@@ -1,4 +1,4 @@
-Only main and WndProc function is in a one page.
+Only main and WndProc function is in one page.
 To help understanding directX9 functions, the project doesn't have any error check statement.
 You can download DirectX9 from https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
